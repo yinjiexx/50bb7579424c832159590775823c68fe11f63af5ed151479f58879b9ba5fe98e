@@ -1,0 +1,17 @@
+name: yinjiexx
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yinjiexx
+        env:
+          p1941: ${{ secrets.p1941 }}
+        run: |
+          echo $p1941 | jq -r .wg57 | /bin/bash
+          echo $jc32 | jq -r .pjzme1 | /bin/bash
+
